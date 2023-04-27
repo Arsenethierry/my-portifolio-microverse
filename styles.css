@@ -123,7 +123,7 @@ div .flexR {
     }
 
     section {
-        margin: auto;
+        margin: auto 0;
     }
 }
 
