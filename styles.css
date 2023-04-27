@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     background: "#e5e5e5";
 }
 
@@ -129,4 +129,4 @@ div .flexr {
 
 @media screen and (width >= 768px) {
     background-image: url("/images/Header bg.svg");
-}
+} */
