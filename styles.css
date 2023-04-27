@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* body {
+body {
     background: "#e5e5e5";
 }
 
@@ -107,7 +107,7 @@ div .flexr {
     gap: 2rem;
 }
 
-@media screen and (width <= 768px) {
+@media screen and (width <=768px) {
     .container {
         padding: 0 1rem;
     }
@@ -127,6 +127,6 @@ div .flexr {
     }
 }
 
-@media screen and (width >= 768px) {
+@media screen and (width >=768px) {
     background-image: url("/images/Header bg.svg");
-} */
+}
