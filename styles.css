@@ -1,38 +1,32 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: "#e5e5e5";
 }
 
 .container {
     padding: 0 5rem;
-
-    @media screen and (max-width: 768px) {
-        padding: 0 1rem;
-    }
 }
 
 nav {
     justify-content: space-between;
+    height: 72px;
+    background-color: #ffff;
+    width: 100%;
 }
 
 #menu {
     display: none;
-
-    @media (max-width: 768px) {
-        display: block;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
 }
 
 ul {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-
-    @media (max-width: 768px) {
-        display: none;
-    }
 }
 
 .flexR {
@@ -53,17 +47,18 @@ li {
 
 .link {
     text-decoration: none;
-    color: #6070FF;
+    color: #6070ff;
     font-size: 1.5rem;
     font-weight: 600;
 }
 
 #logo {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
+    margin: auto 0;
 }
 
 #header {
@@ -72,4 +67,66 @@ li {
     background-repeat: no-repeat;
     background-size: cover;
     height: calc(100vh - 72px);
+    border-bottom: 5px solid #e5e5e5;
+    border-radius: 0 0 0 100px;
+    background-color: #ffff;
+}
+
+section {
+    margin: auto 0;
+    max-width: 70%;
+}
+
+section h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+}
+
+section p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+}
+
+section h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+div .flexR {
+    gap: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    #menu {
+        display: block;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    ul {
+        display: none;
+    }
+
+    section {
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    background-image: url("/images/Header bg.svg");
 }
