@@ -25,7 +25,6 @@
   - [:handshake: Contributing ](#handshake-contributing-)
   - [:star:️ Show your support ](#star️-show-your-support-)
   - [:pray: Acknowledgments ](#pray-acknowledgments-)
-  - [:question: FAQ (OPTIONAL) ](#question-faq-optional-)
   - [📝 License ](#-license-)
 
 # 📖 Hello Microverse <a name="about-project"></a>
@@ -138,13 +137,6 @@ If you like this project please follow me on github & twitter and also connect o
 
 ## :pray: Acknowledgments <a name="acknowledgements"></a>
 I would like to thank Microverse for this exercise.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## :question: FAQ (OPTIONAL) <a name="faq"></a><br/>
-- **[Question_1]**<br/>
-  - [Answer_1]<br/>
-- **[Question_2]**<br/>
-  - [Answer_2]
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>

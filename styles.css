@@ -74,7 +74,7 @@ li {
 
 section {
   margin: auto 0;
-  max-width: 70%;
+  max-width: 100%;
 }
 
 section h1 {
@@ -124,6 +124,7 @@ div .flexr {
 
   section {
     margin: auto 0;
+    width: 100%;
   }
 }
 
