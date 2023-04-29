@@ -222,6 +222,17 @@ body {
   margin-top: 20px;
 }
 
+.languages {
+  padding-top: 50px;
+}
+
+.languages-div {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  list-style: none;
+}
+
 .framework {
   border-bottom: 1.5px solid #dfe1e6;
   padding: 25px 0;
