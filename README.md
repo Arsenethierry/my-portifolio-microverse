@@ -141,7 +141,7 @@ I would like to thank Microverse for this exercise.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Arsenethierry/portifolio-microverse/blob/feature/LICENSE.txt) licensed.
+This project is [MIT](https://github.com/Arsenethierry/my-portifolio-microverse/blob/main/LICENSE) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
