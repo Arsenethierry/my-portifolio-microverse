@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  padding: 0 5rem;
+  padding: 0 1rem;
 }
 
 nav {
@@ -20,7 +20,9 @@ nav {
 }
 
 #menu {
-  display: none;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 ul {
@@ -65,16 +67,20 @@ li {
   background-image: url("/images/header-background-mobile.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: fit-content;
   height: calc(100vh - 72px);
-  border-bottom: 5px solid #e5e5e5;
+  border-bottom: 2px solid #edebeb;
   border-radius: 0 0 0 100px;
   background-color: #ffff;
 }
 
+.mt {
+  margin-top: auto;
+}
+
 section {
-  margin: auto 0;
-  max-width: 100%;
+  margin: auto;
+  width: 100%;
 }
 
 section h1 {
@@ -107,27 +113,6 @@ div .flexr {
   gap: 2rem;
 }
 
-@media screen and (width <= 768px) {
-  .container {
-    padding: 0 1rem;
-  }
-
-  #menu {
-    display: block;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-
-  ul {
-    display: none;
-  }
-
-  section {
-    margin: auto 0;
-    width: 100%;
-  }
-}
-
-@media screen and (width >= 768px) {
-  background-image: url("/images/Header bg.svg");
+.section2 {
+  margin-bottom: auto;
 }
