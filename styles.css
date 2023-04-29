@@ -122,9 +122,8 @@ body {
 }
 
 .items h1 {
-  font-size: 2em;
-  color: #172B4D;
-  font-family: 'Poppins';
+  color: #172b4d;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -135,7 +134,7 @@ body {
   text-align: start;
   margin-right: 25px;
   margin-bottom: 10px;
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -202,12 +201,12 @@ body {
 }
 
 .last-btn:hover {
-  background-color: #6070FF;
+  background-color: #6070ff;
   color: #fff;
 }
 
 .last-btn:active {
-  background-color: #2230D2;
+  background-color: #2230d2;
   color: white;
 }
 
@@ -230,7 +229,7 @@ body {
 .about {
   font-size: 2.4em;
   padding-bottom: 10px;
-  color: #172B4D
+  color: #172b4d;
 }
 
 .about-div p {
@@ -367,7 +366,7 @@ body {
     border-radius: 24px;
   }
 
-  .container-1>* {
+  .container-1 > * {
     flex-basis: calc(50% - 20px);
   }
 
@@ -425,7 +424,7 @@ body {
     margin-right: auto;
   }
 
-  .container-1>* {
+  .container-1 > * {
     flex-basis: calc(33.33% - 20px);
   }
 }
