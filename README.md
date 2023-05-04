@@ -91,7 +91,7 @@ Example command:
   git clone https://github.com/Arsenethierry/my-portifolio-microverse.git
   cd my-portifolio-microverse
   npm init -y
-
+```
 ### Usage
 To run the project, execute the following command:
 npm start or live server
@@ -107,7 +107,7 @@ Example command:
   npx stylelint "**/*.{css,scss}"
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+```
 <!-- AUTHORS -->
 
 👤 **Nasir**
