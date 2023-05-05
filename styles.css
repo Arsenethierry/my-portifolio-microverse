@@ -272,12 +272,8 @@ body {
   padding-bottom: 15px;
   padding-top: 15px;
   border-radius: 10px;
-  margin-right: 20px;
+  gap: 10px;
   display: flex;
-}
-
-.m-l {
-  margin-left: 20px;
 }
 
 .language {
@@ -419,7 +415,7 @@ body {
   }
 
   .last-btn {
-    width: 7rem;
+    width: max-content;
   }
 }
 
