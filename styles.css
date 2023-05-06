@@ -522,6 +522,12 @@ textarea {
   cursor: pointer;
 }
 
+
+.footer-btn:hover {
+  background-color: #7e84c7;
+  color: #fff;
+}
+
 .footer-btn:active {
   background-color: #2230d2;
   color: #fff;
@@ -530,4 +536,14 @@ textarea {
 .container-1:hover {
   transform: scale(1.2);
   transition: transform 0.5s ease-out;
+}
+
+/* Animations */
+
+input::placeholder {
+  transition: transform 0.2s ease-out;
+}
+
+input:hover::placeholder {
+  transform: translateX(10px);
 }
