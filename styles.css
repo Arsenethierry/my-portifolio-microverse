@@ -522,7 +522,6 @@ textarea {
   cursor: pointer;
 }
 
-
 .footer-btn:hover {
   background-color: #7e84c7;
   color: #fff;
@@ -546,4 +545,18 @@ input::placeholder {
 
 input:hover::placeholder {
   transform: translateX(10px);
+}
+
+.rotated {
+  animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
