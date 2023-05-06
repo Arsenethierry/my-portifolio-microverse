@@ -45,6 +45,21 @@ body {
   height: 720px;
   background-color: #f7f7f9;
   border-style: none;
+  animation: scale-in 0.5s ease-out;
+  transform-origin: center;
+  opacity: 1;
+}
+
+@keyframes scale-in {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .section-1-container {
@@ -358,6 +373,8 @@ body {
     gap: 2%;
     padding: 1rem 0;
     border-radius: 24px;
+    transform: scale(1);
+    transition: transform 0.5s ease-out;
   }
 
   .container-1 > * {
@@ -424,6 +441,8 @@ body {
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
+    transform: scale(1);
+    transition: transform 0.5s ease-out;
   }
 
   .container-1 > * {
@@ -503,7 +522,41 @@ textarea {
   cursor: pointer;
 }
 
+.footer-btn:hover {
+  background-color: #7e84c7;
+  color: #fff;
+}
+
 .footer-btn:active {
   background-color: #2230d2;
   color: #fff;
+}
+
+.container-1:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s ease-out;
+}
+
+/* Animations */
+
+input::placeholder {
+  transition: transform 0.2s ease-out;
+}
+
+input:hover::placeholder {
+  transform: translateX(10px);
+}
+
+.rotated {
+  animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
